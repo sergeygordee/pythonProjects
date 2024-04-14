@@ -27,10 +27,10 @@ if __name__ == "__main__":
     expression_field = Entry(root,textvariable=equation)
     expression_field.grid(columnspan=4, ipadx=70)
 
-    btn1 = Button(root, text="1", command=lambda:press(1), fg="blue", bg="red", height=1, width=3)
+    btn1 = Button(root, text="1", command=lambda:press(1), fg="blue", bg="red", height=1, width=7)
     btn1.grid(row=2,column=0)
 
-    btn2 = Button(root, text="2", command=lambda:press(2), fg="blue", bg="red", height=1, width=3)
+    btn2 = Button(root, text="2", command=lambda:press(2), fg="blue", bg="red", height=1, width=7, font="12")
     btn2.grid(row=2, column=1)
 
     btn3 = Button(root, text="3", command=lambda:press(3), fg="blue", bg="red", height=1, width=3)
